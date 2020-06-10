@@ -1,0 +1,18 @@
+{
+  "airports": [
+    {"icao":  "KATL", "name": "Hartsfield–Jackson Atlanta International Airport"},
+    {"icao":  "KSFO", "name": "San Francisco International Airport"},
+    {"icao":  "KMCO", "name": "Orlando International Airport"},
+    {"icao":  "KPHX", "name": "Phoenix Sky Harbor International Airport"},
+    {"icao":  "KDFW", "name": "Dallas Fort Worth International Airport"},
+    {"icao":  "EGKK", "name": "London Gatwick Airport"},
+    {"icao":  "EGLL", "name": "Heathrow Airport"},
+    {"icao":  "EDDF", "name": "Frankfurt Airport"},
+    {"icao":  "EDDS", "name": "Stuttgart Airport"}
+  ],
+  "ksfo": [
+    {"question_number": "1", "question": "Is your airport purchasing equipment to conduct temperature checks?", "response": "Yes"},
+    {"question_number": "2", "question": "Is the airport purchasing or considering temperature checks based on the following? Check all that apply.", "response": "State/local guidance or regulation"},
+    {"question_number": "3", "question": "What type of equipment is being purchased/under consideration? Check all that apply, skip this question if none.", "response": "Non-contact/infrared thermometers"}
+  ]
+}

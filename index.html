@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SURVEY RESULTS</title>
+
+    <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
+    <link rel="stylesheet" href="node_modules/print-js/dist/print.css">
+    <link rel="stylesheet" media="print" href="print.css">
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/select2/dist/js/select2.full.js"></script>
+    <script src="node_modules/list.js/dist/list.js"></script>
+
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="airport-page">
+        <div id="airports" style="display: none;">
+            <select name="airport-list" id="airport-list" style="width: 300px;">
+                <option></option>
+            </select>
+        </div>
+
+        <h1 id="airport" style="padding-top: 10px; font-weight: bold; text-transform: uppercase;"></h1>
+
+        <div id="survey-responses" style="display: none;">
+            <input class="search" placeholder="Search Responses" /> <button type="button" onclick="window.print();
+">Print</button> <button>Download PDF</button>
+            <ul id="response-list" class="list" style="list-style: none; display: none; padding-left: 0;"></ul>
+        </div>
+    </div>
+</body>
+</html>

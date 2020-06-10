@@ -1,0 +1,5 @@
+@media print {
+    select, input, .select2, button {
+        display: none;
+    }
+}
